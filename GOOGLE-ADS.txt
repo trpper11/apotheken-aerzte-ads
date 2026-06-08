@@ -1,0 +1,198 @@
+==================================================================
+GOOGLE ADS BUILD — Apotheken & Ärzte Finanz (BaFin financial services)
+Final URL: https://apotheken-aerzte.com.de/ads
+Country: Germany (DE) | Language: German | Track: DE-authorized advertiser
+==================================================================
+
+PRE-FLIGHT (must be GREEN before ads serve):
+[ ] G2RS verification approved -> you have the G2RS code
+[ ] Submit G2RS code in Google Ads FS verification form
+      (support.google.com/google-ads/contact/google_ads_financial_services_verification)
+[ ] Advertiser identity verification complete (business + payments)
+[ ] LP shows: physical address, BaFin reg-no, representative APR example,
+    Impressum / Datenschutz / AGB  -> all live on /ads
+[ ] Select in form: "I am a DE-authorized advertiser (licensed by a
+    relevant German financial services regulator)"
+
+------------------------------------------------------------------
+CAMPAIGN
+------------------------------------------------------------------
+Name:        DE | Search | Heilberuf-Finanzierung
+Type:        Search
+Networks:    Google Search ONLY (Search Partners OFF, Display OFF)
+Locations:   Germany — set to "Presence: people in your targeted locations"
+Language:    German
+Bidding:     Maximize conversions (switch to Target CPA after ~30 conv)
+Budget:      [set daily €]
+Ad rotation: Optimize
+Conversion goal: Lead form submit (primary) — see CONVERSION below
+
+------------------------------------------------------------------
+AD GROUP 1 — Praxisfinanzierung
+------------------------------------------------------------------
+KEYWORDS (phrase + a few exact):
+"praxisfinanzierung"
+[praxisfinanzierung]
+"praxiskredit"
+"finanzierung arztpraxis"
+"kredit für ärzte"
+"arztkredit"
+"praxisübernahme finanzierung"
+"existenzgründung arzt"
+"praxisgründung finanzierung"
+"zahnarztpraxis finanzierung"
+
+------------------------------------------------------------------
+AD GROUP 2 — Apothekenfinanzierung
+------------------------------------------------------------------
+KEYWORDS:
+"apothekenfinanzierung"
+[apothekenfinanzierung]
+"apothekenkredit"
+"kredit für apotheker"
+"apotheke finanzierung"
+"apothekengründung finanzierung"
+"apothekenübernahme finanzierung"
+
+------------------------------------------------------------------
+AD GROUP 3 — Medizintechnik-Leasing
+------------------------------------------------------------------
+KEYWORDS:
+"medizintechnik leasing"
+"praxisgeräte leasing"
+"medizinische geräte finanzierung"
+"leasing arztpraxis"
+"laborgeräte finanzierung"
+
+==================================================================
+RESPONSIVE SEARCH ADS  (15 headlines / 4 desc per ad group)
+Headlines <=30 chars, Descriptions <=90 chars. Brand-direct.
+==================================================================
+
+----- RSA: Ad Group 1 (Praxisfinanzierung) -----  [punchier, policy-safe]
+HEADLINES:
+1  Praxisfinanzierung
+2  Zusage in nur 48 Stunden
+3  Apotheken & Ärzte Finanz
+4  Bis 750.000 € für Ihre Praxis
+5  BaFin-lizenzierter Partner
+6  Eff. Jahreszins ab 4,2 %*
+7  Schufa-neutral anfragen
+8  Jetzt Konditionen sichern
+9  Praxisübernahme finanzieren
+10 Existenzgründung als Arzt
+11 Kostenlos & unverbindlich
+12 Faire Konditionen
+13 Spezialist für Heilberufe
+14 Praxiskredit online
+15 In 2 Minuten anfragen
+
+DESCRIPTIONS:
+1  Bis 750.000 € für Niederlassung, Übernahme & Modernisierung. Zusage in 48 h.
+2  Eff. Jahreszins ab 4,2 %*. Konditionsanfrage Schufa-neutral. BaFin-lizenziert.
+3  Apotheken & Ärzte Finanz – Ihr Spezialist für Heilberufe. Jetzt anfragen.
+4  In 2 Minuten anfragen, in 48 h zur Erstindikation. Kostenlos & unverbindlich.
+
+----- RSA: Ad Group 2 (Apothekenfinanzierung) -----
+HEADLINES:
+1  Apothekenfinanzierung
+2  Apothekenkredit sichern
+3  Apotheken & Ärzte Finanz
+4  Finanzierung für Apotheker
+5  BaFin-lizenzierter Partner
+6  Eff. Jahreszins ab 4,2 %*
+7  Bis 750.000 € Volumen
+8  Apothekengründung finanzieren
+9  Apothekenübernahme Kredit
+10 Entscheidung in 48 Stunden
+11 Unverbindlich anfragen
+12 Faire Konditionen
+13 Spezialist für Apotheken
+14 Apothekenkredit online
+15 Jetzt Erstindikation sichern
+
+DESCRIPTIONS:
+1  Finanzierung für Gründung, Übernahme & Warenlager Ihrer Apotheke.
+2  Eff. Jahreszins ab 4,2 %*. Bis 750.000 €. BaFin-lizenzierte Partner.
+3  Apotheken & Ärzte Finanz – spezialisiert auf Apotheker in Deutschland.
+4  Kostenlos & unverbindlich anfragen. Erstindikation in 48 Stunden.
+
+----- RSA: Ad Group 3 (Medizintechnik-Leasing) -----
+HEADLINES:
+1  Medizintechnik-Leasing
+2  Praxisgeräte finanzieren
+3  Apotheken & Ärzte Finanz
+4  Leasing für Arztpraxen
+5  BaFin-lizenzierter Partner
+6  Bilanzschonend leasen
+7  Bis 750.000 € Volumen
+8  Labor- & Diagnostiktechnik
+9  Entscheidung in 48 Stunden
+10 Unverbindlich anfragen
+11 Faire Konditionen
+12 Geräte sofort nutzen
+13 Spezialist für Heilberufe
+14 Medizingeräte-Finanzierung
+15 Jetzt Erstindikation sichern
+
+DESCRIPTIONS:
+1  Bilanzschonendes Leasing für Diagnostik, Labor- und Behandlungstechnik.
+2  Eff. Jahreszins ab 4,2 %*. Bis 750.000 €. BaFin-lizenzierte Partner.
+3  Apotheken & Ärzte Finanz – Medizintechnik flexibel finanzieren.
+4  Kostenlos & unverbindlich anfragen. Erstindikation in 48 Stunden.
+
+==================================================================
+ASSETS / EXTENSIONS  (placed at the CORRECT level)
+==================================================================
+
+--- ACCOUNT level ---
+CALLOUTS:
+  BaFin-lizenziert · Spezialist für Heilberufe · Eff. Zins ab 4,2 %* ·
+  Bis 750.000 € · Entscheidung in 48 h · Kostenlos & unverbindlich ·
+  Persönlicher Ansprechpartner
+STRUCTURED SNIPPETS:
+  Header "Dienstleistungen": Praxisfinanzierung, Apothekenkredit,
+  Existenzgründung, Geräteleasing, Praxisübernahme, Betriebsmittelkredit
+
+--- CAMPAIGN level ---
+SITELINKS:
+  - Praxisfinanzierung  | Darlehen für Niederlassung & Übernahme | https://apotheken-aerzte.com.de/ads#leistungen
+  - Apothekenkredit     | Gründung, Filiale & Warenlager          | https://apotheken-aerzte.com.de/ads#leistungen
+  - Konditionen         | Repräsentatives Beispiel & eff. Zins    | https://apotheken-aerzte.com.de/ads#beispiel
+  - Jetzt anfragen      | Erstindikation in 48 Stunden            | https://apotheken-aerzte.com.de/ads#anfrage
+CALL: 0711 99373-1100  (schedule to business hours)
+LEAD FORM: optional — only after FS verification confirms it's allowed
+
+==================================================================
+NEGATIVE KEYWORDS  (campaign-level list)
+==================================================================
+kostenlos geld, gratis, sofortkredit ohne schufa, kredit ohne schufa,
+kredit trotz schufa, privatkredit, p2p, krypto, bitcoin, forex,
+schufa löschen, schuldnerberatung, inkasso, jobs, gehalt, ausbildung,
+stellenangebote, definition, wikipedia, was ist, vergleich stiftung,
+kostenloser kredit, kredit student, minikredit, payday
+
+==================================================================
+CONVERSION ACTION
+==================================================================
+Name:      Lead – Finanzierungsanfrage
+Category:  Submit lead form
+Source:    Website (Google tag) — fire on form submit / thank-you state
+Count:     One
+Value:     [optional fixed lead value, e.g. €30]
+Window:    30-day click
+Note:      Cookie-consent gate (Datenschutz) must allow Ads tag before firing.
+
+==================================================================
+POLICY NOTES (why this should pass)
+==================================================================
+- DE financial services in scope -> requires G2RS code + Google FS verification
+  BEFORE ads can serve. No copy/keyword fix substitutes for verification.
+- LP carries the mandatory disclosures: physical address, BaFin reg-no,
+  representative APR example (PAngV), Impressum/Datenschutz/AGB.
+- Business name on LP/Impressum must EXACTLY match the BaFin registry entry
+  used in G2RS — mismatch is the #1 rejection reason.
+- *All "ab 4,2 %" claims are bonität-dependent and backed by the on-page
+  representative example -> avoids "misleading financial claim" flags.
+- Keep Search Partners & Display OFF until first approval is stable.
+==================================================================
