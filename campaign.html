@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apotheken &amp; Ärzte Finanz — Google Ads Campaign Build</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --line:#2a2f3a; --ink:#eef1f6; --mut:#9aa4b2; --grn:#2ecc71; --org:#ff9f43; --blu:#4aa3ff; --red:#ff6b6b; --prp:#b388ff; }
+  * { box-sizing:border-box; }
+  body { margin:0 auto; max-width:920px; background:var(--bg); color:var(--ink); font:18px/1.6 -apple-system,Segoe UI,Roboto,Arial,sans-serif; padding:24px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  h2 { font-size:24px; margin:34px 0 8px; padding-bottom:6px; border-bottom:2px solid var(--line); }
+  h3 { font-size:17px; margin:16px 0 6px; color:var(--mut); }
+  .sub { color:var(--mut); margin:0 0 18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:14px 0; }
+  .tag { display:inline-block; font-size:14px; font-weight:700; padding:3px 10px; border-radius:20px; margin-bottom:10px; background:rgba(255,159,67,.15); color:var(--org); }
+  .tag.b { background:rgba(74,163,255,.15); color:var(--blu); }
+  .tag.c { background:rgba(179,136,255,.15); color:var(--prp); }
+  pre { background:#0b0d11; border:1px solid var(--line); border-radius:8px; padding:14px; overflow:auto; font:15px/1.7 ui-monospace,Menlo,Consolas,monospace; color:#dbe2ec; margin:0; white-space:pre-wrap; }
+  .row { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:8px; }
+  .ttl { font-weight:700; font-size:18px; }
+  button { background:var(--grn); color:#04210f; border:0; border-radius:8px; padding:8px 15px; font-size:14px; font-weight:700; cursor:pointer; white-space:nowrap; }
+  button:active { transform:translateY(1px); }
+  button.done { background:var(--blu); color:#04162b; }
+  .ok { background:rgba(46,204,113,.08); border-left:4px solid var(--grn); padding:14px 18px; border-radius:8px; margin:10px 0 20px; }
+  .ok b { color:var(--grn); }
+  .warn { background:rgba(255,107,107,.08); border-left:4px solid var(--red); padding:14px 18px; border-radius:8px; margin:10px 0 20px; }
+  .warn b { color:var(--red); }
+  .note { color:var(--mut); font-size:14px; margin-top:8px; }
+  code { background:#0b0d11; padding:2px 7px; border-radius:5px; color:#ffd479; font-size:14px; }
+  .map { font:15px/1.8 ui-monospace,Menlo,Consolas,monospace; color:#cdd6e2; }
+  .map b { color:var(--ink); }
+  .pill { font-size:13px; color:var(--mut); }
+</style>
+</head>
+<body>
+  <h1>Apotheken &amp; Ärzte Finanz — Campaign Build</h1>
+  <p class="sub">DE Financial Services · BaFin Reg. 10108297 · Account 750-817-5039 ✅ verified · Final URL https://apotheken-aerzte.com.de/</p>
+
+  <div class="ok">
+    <b>License lane (the boundary):</b> everything below stays inside <b>Leasing · Factoring · Business financing</b> — what the BaFin license covers. We go WIDE on industries, asset types &amp; deal size, NARROW on product type. Tap any <b>Copy</b> button → paste straight into Google Ads.
+  </div>
+
+  <!-- ACCOUNT MAP -->
+  <h2>Account structure (3 campaigns)</h2>
+  <div class="card">
+    <p class="map">
+<b>ACCOUNT</b> — Account-level assets: Callouts + Structured snippets<br>
+│<br>
+├─ <b style="color:#ff9f43">Campaign A · Healthcare Financing</b> <span class="pill">(warm, highest QS)</span><br>
+│   ├─ AG1 Praxisfinanzierung<br>
+│   ├─ AG2 Apothekenfinanzierung<br>
+│   └─ AG3 Medizintechnik-Leasing<br>
+│<br>
+├─ <b style="color:#4aa3ff">Campaign B · Factoring &amp; SME Leasing</b> <span class="pill">(the money — broad, low competition)</span><br>
+│   ├─ AG1 Factoring<br>
+│   ├─ AG2 Equipment &amp; Asset Leasing<br>
+│   └─ AG3 Business Loan / Firmenkredit<br>
+│<br>
+└─ <b style="color:#b388ff">Campaign C · Bank Conquest</b> <span class="pill">(expensive, brand-bid + comparison LP)</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;└─ AG1 Bank-Alternative (brand × product keywords)
+    </p>
+    <h3>Settings — apply to ALL 3 campaigns</h3>
+    <div class="row"><span class="note">copy into each campaign</span><button onclick="cp(this,'set')">Copy settings</button></div>
+<pre id="set">Type:        Search
+Networks:    Google Search ONLY (Search Partners OFF, Display OFF)
+Locations:   Germany — "Presence: people in your targeted locations"
+Language:    German
+Bidding:     Maximize conversions (→ Target CPA after ~30 conv)
+Ad rotation: Optimize
+Conversion:  Lead – Finanzierungsanfrage (form submit)
+Final URL:   https://apotheken-aerzte.com.de/</pre>
+  </div>
+
+  <!-- ===================== CAMPAIGN A ===================== -->
+  <h2 style="color:#ff9f43">Campaign A · Healthcare Financing</h2>
+
+  <div class="card">
+    <span class="tag">AG1 · Praxisfinanzierung</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'a1k')">Copy keywords</button></div>
+<pre id="a1k">"praxisfinanzierung"
+[praxisfinanzierung]
+"praxiskredit"
+"finanzierung arztpraxis"
+"kredit für ärzte"
+"arztkredit"
+"praxisübernahme finanzierung"
+"existenzgründung arzt"
+"praxisgründung finanzierung"
+"zahnarztpraxis finanzierung"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a1h')">Copy headlines</button></div>
+<pre id="a1h">Praxisfinanzierung
+Zusage in nur 48 Stunden
+Apotheken &amp; Ärzte Finanz
+Bis 750.000 € für Ihre Praxis
+BaFin-lizenzierter Partner
+Eff. Jahreszins ab 4,2 %*
+Schufa-neutral anfragen
+Jetzt Konditionen sichern
+Praxisübernahme finanzieren
+Existenzgründung als Arzt
+Kostenlos &amp; unverbindlich
+Faire Konditionen
+Spezialist für Heilberufe
+Praxiskredit online
+In 2 Minuten anfragen</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a1d')">Copy descriptions</button></div>
+<pre id="a1d">Bis 750.000 € für Niederlassung, Übernahme &amp; Modernisierung. Zusage in 48 h.
+Eff. Jahreszins ab 4,2 %*. Konditionsanfrage Schufa-neutral. BaFin-lizenziert.
+Apotheken &amp; Ärzte Finanz – Ihr Spezialist für Heilberufe. Jetzt anfragen.
+In 2 Minuten anfragen, in 48 h zur Erstindikation. Kostenlos &amp; unverbindlich.</pre>
+  </div>
+
+  <div class="card">
+    <span class="tag">AG2 · Apothekenfinanzierung</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'a2k')">Copy keywords</button></div>
+<pre id="a2k">"apothekenfinanzierung"
+[apothekenfinanzierung]
+"apothekenkredit"
+"kredit für apotheker"
+"apotheke finanzierung"
+"apothekengründung finanzierung"
+"apothekenübernahme finanzierung"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a2h')">Copy headlines</button></div>
+<pre id="a2h">Apothekenfinanzierung
+Apothekenkredit sichern
+Apotheken &amp; Ärzte Finanz
+Finanzierung für Apotheker
+BaFin-lizenzierter Partner
+Eff. Jahreszins ab 4,2 %*
+Bis 750.000 € Volumen
+Apothekengründung finanzieren
+Apothekenübernahme Kredit
+Zusage in nur 48 Stunden
+Kostenlos &amp; unverbindlich
+Faire Konditionen
+Spezialist für Apotheken
+Apothekenkredit online
+In 2 Minuten anfragen</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a2d')">Copy descriptions</button></div>
+<pre id="a2d">Finanzierung für Gründung, Übernahme &amp; Warenlager Ihrer Apotheke.
+Eff. Jahreszins ab 4,2 %*. Bis 750.000 €. BaFin-lizenzierte Partner.
+Apotheken &amp; Ärzte Finanz – spezialisiert auf Apotheker in Deutschland.
+Kostenlos &amp; unverbindlich anfragen. Erstindikation in 48 Stunden.</pre>
+  </div>
+
+  <div class="card">
+    <span class="tag">AG3 · Medizintechnik-Leasing</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'a3k')">Copy keywords</button></div>
+<pre id="a3k">"medizintechnik leasing"
+"praxisgeräte leasing"
+"medizinische geräte finanzierung"
+"leasing arztpraxis"
+"laborgeräte finanzierung"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a3h')">Copy headlines</button></div>
+<pre id="a3h">Medizintechnik-Leasing
+Praxisgeräte finanzieren
+Apotheken &amp; Ärzte Finanz
+Leasing für Arztpraxen
+BaFin-lizenzierter Partner
+Bilanzschonend leasen
+Bis 750.000 € Volumen
+Labor- &amp; Diagnostiktechnik
+Zusage in nur 48 Stunden
+Kostenlos &amp; unverbindlich
+Faire Konditionen
+Geräte sofort nutzen
+Spezialist für Heilberufe
+Medizingeräte-Finanzierung
+In 2 Minuten anfragen</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'a3d')">Copy descriptions</button></div>
+<pre id="a3d">Bilanzschonendes Leasing für Diagnostik, Labor- und Behandlungstechnik.
+Eff. Jahreszins ab 4,2 %*. Bis 750.000 €. BaFin-lizenzierte Partner.
+Apotheken &amp; Ärzte Finanz – Medizintechnik flexibel finanzieren.
+Kostenlos &amp; unverbindlich anfragen. Erstindikation in 48 Stunden.</pre>
+  </div>
+
+  <!-- ===================== CAMPAIGN B ===================== -->
+  <h2 style="color:#4aa3ff">Campaign B · Factoring &amp; SME Leasing <span style="font-size:15px;color:var(--mut)">— the low-hanging money</span></h2>
+
+  <div class="card">
+    <span class="tag b">AG1 · Factoring</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'b1k')">Copy keywords</button></div>
+<pre id="b1k">"factoring"
+"factoring anbieter"
+"factoring unternehmen"
+"rechnung verkaufen"
+"forderungen verkaufen"
+"online factoring"
+"factoring für kleine unternehmen"
+"factoring selbstständige"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b1h')">Copy headlines</button></div>
+<pre id="b1h">Factoring für Unternehmen
+Rechnungen sofort zu Geld
+Liquidität in 48 Stunden
+BaFin-lizenziertes Factoring
+Bankenunabhängig
+Bis 750.000 € Volumen
+Sofort liquide bleiben
+Factoring ohne Wartezeit
+Forderungen verkaufen
+Planbare Liquidität
+Kostenlos anfragen
+Schnelle Auszahlung
+Für KMU &amp; Selbstständige
+Faire Konditionen
+Jetzt Angebot sichern</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b1d')">Copy descriptions</button></div>
+<pre id="b1d">Verwandeln Sie offene Rechnungen sofort in Liquidität. BaFin-lizenziert.
+Auszahlung in 48 Stunden, bankenunabhängig. Jetzt kostenlos anfragen.
+Planbare Liquidität für KMU &amp; Selbstständige. Faire, transparente Konditionen.
+Forderungen verkaufen, sofort liquide bleiben. Unverbindliches Angebot sichern.</pre>
+  </div>
+
+  <div class="card">
+    <span class="tag b">AG2 · Equipment &amp; Asset Leasing</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'b2k')">Copy keywords</button></div>
+<pre id="b2k">"leasing für unternehmen"
+"gewerbe leasing"
+"maschinen leasing"
+"it leasing"
+"equipment leasing"
+"anlagen leasing"
+"firmenwagen leasing"
+"betriebsausstattung leasing"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b2h')">Copy headlines</button></div>
+<pre id="b2h">Leasing für Unternehmen
+Maschinen &amp; IT leasen
+Firmenwagen-Leasing
+Bilanzschonend leasen
+BaFin-lizenzierter Partner
+Bis 750.000 € Volumen
+Zusage in 48 Stunden
+Equipment sofort nutzen
+Anlagen &amp; Geräte leasen
+Flexible Laufzeiten
+Für KMU &amp; Selbstständige
+Kostenlos anfragen
+Faire Konditionen
+Gewerbe-Leasing online
+Jetzt Angebot sichern</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b2d')">Copy descriptions</button></div>
+<pre id="b2d">Maschinen, IT, Fahrzeuge &amp; Anlagen bilanzschonend leasen. BaFin-lizenziert.
+Zusage in 48 Stunden. Flexible Laufzeiten für KMU &amp; Selbstständige.
+Equipment sofort nutzen, Liquidität schonen. Jetzt kostenlos anfragen.
+Gewerbe-Leasing zu fairen Konditionen. Unverbindliches Angebot sichern.</pre>
+  </div>
+
+  <div class="card">
+    <span class="tag b">AG3 · Business Loan / Firmenkredit</span>
+    <div class="row"><span class="ttl">Keywords</span><button onclick="cp(this,'b3k')">Copy keywords</button></div>
+<pre id="b3k">"firmenkredit"
+"betriebsmittelkredit"
+"gewerbekredit"
+"unternehmenskredit"
+"kredit für selbstständige"
+"kredit für unternehmen"
+"geschäftskredit"</pre>
+    <h3>Headlines (15 · ≤30 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b3h')">Copy headlines</button></div>
+<pre id="b3h">Firmenkredit schnell
+Betriebsmittelkredit
+Kredit für Unternehmen
+Liquidität in 48 Stunden
+BaFin-lizenzierter Partner
+Bis 750.000 € Volumen
+Bankenunabhängig
+Für Selbstständige &amp; KMU
+Gewerbekredit online
+Flexible Rückzahlung
+Kostenlos anfragen
+Faire Konditionen
+Schnelle Zusage
+Ohne lange Wartezeit
+Jetzt Angebot sichern</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'b3d')">Copy descriptions</button></div>
+<pre id="b3d">Firmen- &amp; Betriebsmittelkredit für Unternehmen. BaFin-lizenziert.
+Zusage in 48 Stunden, bankenunabhängig. Jetzt kostenlos anfragen.
+Flexible Rückzahlung für Selbstständige &amp; KMU. Faire Konditionen.
+Liquidität ohne lange Wartezeit. Unverbindliches Angebot sichern.</pre>
+  </div>
+
+  <!-- ===================== CAMPAIGN C ===================== -->
+  <h2 style="color:#b388ff">Campaign C · Bank Conquest <span style="font-size:15px;color:var(--mut)">— brand-bid + comparison LP</span></h2>
+
+  <div class="warn">
+    <b>Rule (don't get suspended):</b> bank names go ONLY in the keywords below — <b>NEVER</b> in headlines/descriptions (trademark strike). Only conquest <b>product</b> intent you can fulfil (leasing/factoring/firmenkredit), NOT "investment / mortgage / account". The "why we're better" comparison lives on the landing page, with <b>factual</b> rows only.
+  </div>
+
+  <div class="card">
+    <span class="tag c">AG1 · Bank-Alternative (brand × product)</span>
+    <div class="row"><span class="ttl">Keywords <span class="pill">(bank name only here)</span></span><button onclick="cp(this,'c1k')">Copy keywords</button></div>
+<pre id="c1k">"deutsche bank leasing"
+"deutsche bank factoring"
+"deutsche bank firmenkredit"
+"commerzbank leasing"
+"commerzbank factoring"
+"commerzbank firmenkredit"
+"sparkasse leasing"
+"sparkasse firmenkredit"
+"ing firmenkredit"
+"targobank firmenkredit"
+"postbank firmenkredit"
+"deutsche leasing"</pre>
+    <h3>Headlines (15 · ≤30 chars · NO bank names)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'c1h')">Copy headlines</button></div>
+<pre id="c1h">Schneller als die Hausbank
+In 48h statt Wochen
+Bankenunabhängig finanzieren
+Mehr Flexibilität als Banken
+BaFin-lizenzierter Partner
+Weniger Bürokratie
+Persönlicher Ansprechpartner
+Spezialist statt Großbank
+Faire, transparente Zinsen
+Bis 750.000 € Volumen
+Kostenlos vergleichen
+Jetzt Konditionen sichern
+Leasing, Factoring &amp; Kredit
+Schnelle Zusage
+Unverbindlich anfragen</pre>
+    <h3>Descriptions (4 · ≤90 chars)</h3>
+    <div class="row"><span class="note">paste into RSA</span><button onclick="cp(this,'c1d')">Copy descriptions</button></div>
+<pre id="c1d">Schneller und flexibler als Ihre Hausbank. BaFin-lizenziert. Jetzt vergleichen.
+Zusage in 48h statt Wochen – weniger Bürokratie, persönlicher Kontakt.
+Leasing, Factoring &amp; Firmenkredit aus einer Hand. Faire, transparente Zinsen.
+Vergleichen Sie selbst: spezialisiert, schnell, fair. Unverbindlich anfragen.</pre>
+  </div>
+
+  <!-- ===================== SHARED ===================== -->
+  <h2>Account-level assets</h2>
+  <div class="card">
+    <div class="row"><span class="ttl">Callouts</span><button onclick="cp(this,'cal')">Copy</button></div>
+<pre id="cal">BaFin-lizenziert
+Bankenunabhängig
+Zusage in 48 Stunden
+Bis 750.000 €
+Kostenlos &amp; unverbindlich
+Persönlicher Ansprechpartner
+Faire, transparente Konditionen</pre>
+    <h3>Structured snippet</h3>
+    <div class="row"><span class="note">Header: Dienstleistungen</span><button onclick="cp(this,'snip')">Copy</button></div>
+<pre id="snip">Praxisfinanzierung
+Apothekenkredit
+Factoring
+Leasing
+Firmenkredit
+Existenzgründung</pre>
+  </div>
+
+  <h2>Negative keywords <span style="font-size:15px;color:var(--mut)">— one shared list, all campaigns</span></h2>
+  <div class="card">
+    <div class="row"><span class="note">keeps out off-license &amp; junk intent</span><button onclick="cp(this,'neg')">Copy negatives</button></div>
+<pre id="neg">ohne schufa
+kredit ohne schufa
+kredit trotz schufa
+sofort bargeld
+sofortkredit
+privatkredit
+privat
+verbraucher
+schufa löschen
+schuldnerberatung
+inkasso
+investment
+aktien
+depot
+hypothek
+baufinanzierung
+girokonto
+konto eröffnen
+kreditkarte
+krypto
+bitcoin
+forex
+jobs
+gehalt
+ausbildung
+definition
+wikipedia
+was ist
+payday
+student</pre>
+  </div>
+
+  <h2>Setup notes</h2>
+  <div class="card">
+    <pre>• Run A + B first (warm, cheap, high QS). Add C once A/B convert.
+• Campaign C is expensive — cap its budget; it's a traffic/awareness grab.
+• Conversion = Lead form submit. Fire only after cookie consent.
+• Every "ab 4,2 %" / amount claim is backed by the example on the page.
+• Comparison table (Campaign C) = NEXT build on the landing page,
+  factual rows only: speed 48h, healthcare/SME specialist,
+  personal contact, less bureaucracy, BaFin-licensed.
+• Bank names: keywords ONLY, never in ad text or as a claim.</pre>
+  </div>
+
+  <p class="sub" style="margin-top:24px">Landing page: <a href="index.html" style="color:#4aa3ff">apotheken-aerzte.com.de</a> · * eff. Jahreszins ab 4,2 % bonitätsabhängig, gedeckt durch das repräsentative Beispiel auf der Seite.</p>
+
+<script>
+function cp(btn, id){
+  const t = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(t).then(()=>{
+    const o = btn.textContent; btn.textContent='✓ Copied'; btn.classList.add('done');
+    setTimeout(()=>{ btn.textContent=o; btn.classList.remove('done'); }, 1600);
+  });
+}
+</script>
+</body>
+</html>
