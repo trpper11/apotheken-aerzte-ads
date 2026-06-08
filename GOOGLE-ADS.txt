@@ -1,6 +1,6 @@
 ==================================================================
 GOOGLE ADS BUILD — Apotheken & Ärzte Finanz (BaFin financial services)
-Final URL: https://apotheken-aerzte.com.de/ads
+Final URL: https://apotheken-aerzte.com.de
 Country: Germany (DE) | Language: German | Track: DE-authorized advertiser
 ==================================================================
 
@@ -156,10 +156,10 @@ STRUCTURED SNIPPETS:
 
 --- CAMPAIGN level ---
 SITELINKS:
-  - Praxisfinanzierung  | Darlehen für Niederlassung & Übernahme | https://apotheken-aerzte.com.de/ads#leistungen
-  - Apothekenkredit     | Gründung, Filiale & Warenlager          | https://apotheken-aerzte.com.de/ads#leistungen
-  - Konditionen         | Repräsentatives Beispiel & eff. Zins    | https://apotheken-aerzte.com.de/ads#beispiel
-  - Jetzt anfragen      | Erstindikation in 48 Stunden            | https://apotheken-aerzte.com.de/ads#anfrage
+  - Praxisfinanzierung  | Darlehen für Niederlassung & Übernahme | https://apotheken-aerzte.com.de#leistungen
+  - Apothekenkredit     | Gründung, Filiale & Warenlager          | https://apotheken-aerzte.com.de#leistungen
+  - Konditionen         | Repräsentatives Beispiel & eff. Zins    | https://apotheken-aerzte.com.de#beispiel
+  - Jetzt anfragen      | Erstindikation in 48 Stunden            | https://apotheken-aerzte.com.de#anfrage
 CALL: 0711 99373-1100  (schedule to business hours)
 LEAD FORM: optional — only after FS verification confirms it's allowed
 
